@@ -1,0 +1,11 @@
+127.0.0.1 - - [11/Aug/2025:10:04:25 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [11/Aug/2025:10:04:26 +0530] "GET /ServletToServletCommunication/LoginServe2 HTTP/1.1" 405 752
+0:0:0:0:0:0:0:1 - - [11/Aug/2025:10:04:26 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [11/Aug/2025:10:04:29 +0530] "GET /ServletToServletCommunication/LoginServe2 HTTP/1.1" 405 752
+0:0:0:0:0:0:0:1 - - [11/Aug/2025:10:04:30 +0530] "GET /ServletToServletCommunication/LoginServe2 HTTP/1.1" 405 752
+0:0:0:0:0:0:0:1 - - [11/Aug/2025:10:04:30 +0530] "GET /ServletToServletCommunication/LoginServe2 HTTP/1.1" 405 752
+0:0:0:0:0:0:0:1 - - [11/Aug/2025:10:04:45 +0530] "GET /ServletToServletCommunication/Login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Aug/2025:10:04:46 +0530] "POST /ServletToServletCommunication/LoginServe1 HTTP/1.1" 200 693
+0:0:0:0:0:0:0:1 - - [11/Aug/2025:10:04:53 +0530] "POST /ServletToServletCommunication/LoginServe1 HTTP/1.1" 200 37
+0:0:0:0:0:0:0:1 - - [11/Aug/2025:10:06:16 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [11/Aug/2025:10:06:34 +0530] "POST /ServletToServletCommunication/LoginServe1 HTTP/1.1" 200 693

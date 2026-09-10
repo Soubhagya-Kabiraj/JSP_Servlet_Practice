@@ -1,0 +1,27 @@
+body{
+	margin: 0px;
+}
+#main{
+	display: flex;
+}
+#left{
+	background-color: black;
+	color:white;
+	width: 30%;
+	h2{
+		margin-left:40px;
+	}
+}
+#right{
+	background-color: black;
+	color:white;
+	display: flex;
+	width: 70%;
+	a{
+		background-color: black;
+		text-decoration: none;
+		color: white;
+		margin: 25px auto;
+		
+	}
+}

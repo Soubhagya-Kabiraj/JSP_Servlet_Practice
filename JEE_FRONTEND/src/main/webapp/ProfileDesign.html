@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>PROFILE/</title>
+<style>
+	#main{
+		display: flex;
+	}
+	#left{
+		width: 30%;
+		img{
+			height:315px;
+			width:430px;
+		}
+	}
+	#right{
+		width: 50%;
+		BORDER: 5PX solid black;
+		text-align:center;
+		box-shadow: 0px 0px 10px black;
+		button{
+			background-color: black;
+			color: white;
+			padding: 10px;
+			border-radius: 15px;
+			margin-bottom: 15px;
+		}
+	}
+</style>
+<script>
+	function changeRohit(){
+		var roref=document.getElementById("im");
+		roref.src="https://thfvnext.bing.com/th/id/OIP.EBxPCZfYDi2GNmLUQv2azQHaEK?w=318&h=180&c=7&r=0&o=7&cb=thfvnext&dpr=1.3&pid=1.7&rm=3"
+		var roref=document.getElementById("n");
+		roref.innerText="NAME: ROHIT SHARMA";
+		var roref=document.getElementById("g");
+		roref.innerText="GENDER: MALE";
+		var roref=document.getElementById("p");
+		roref.innerText="PROFFESION: CRICKETER";
+		var roref=document.getElementById("c");
+		roref.innerText="CURRENT FORMAT: ODI";
+		var viref=document.getElementById("f");
+		viref.innerText="CURRENT FRANCHAISE: MUMBAI INDIANS";
+
+	}
+	function changeVirat(){
+		var viref=document.getElementById("im");
+		viref.src="https://femalecricket.com/wp-content/uploads/2021/12/smriti-mandhana-playing-with-boys-cricket-1200x900.jpg";
+		var viref=document.getElementById("n");
+		viref.innerText="NAME: SMRITI MANDHANA";
+		var viref=document.getElementById("g");
+		viref.innerText="GENDER: FEMALE";
+		var viref=document.getElementById("p");
+		viref.innerText="PROFFESION: CRICKETER";
+		var viref=document.getElementById("c");
+		viref.innerText="CURRENT FORMAT: ODI,T20I,TEST";
+		var viref=document.getElementById("f");
+		viref.innerText="CURRENT FRANCHAISE: ROYAL CHALLENGERS BENGALURU";
+	}
+</script>
+</head>
+<body>
+	<div id="main">
+		<div id="left">
+			<img id="im" src=""
+				height="300px"
+				width="400px"
+				alt="No image"/>
+		</div>
+		<div id="right">
+			<h2 id="n">NAME:</h2>
+			<h2 id="g">GENDER:</h2>
+			<h2 id="p">PROFFESION: </h2>
+			<h2 id="c">CURRENT FORMATE: </h2>
+			<h2 id="f">CURRENT FRANCHAISE: </h2>
+			
+			<button onclick="changeRohit()">ROHIT SHARMA</button> &nbsp; &nbsp;
+			<button onclick="changeVirat()">SMRITI MANDHANA</button>
+		</div>
+	</div>
+</body>
+</html>

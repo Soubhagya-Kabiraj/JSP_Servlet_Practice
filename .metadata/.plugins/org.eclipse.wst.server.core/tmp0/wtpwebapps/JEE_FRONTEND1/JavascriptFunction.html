@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JAVASCRIPT FUNCTION</title>
+<script>
+	//NORMAL FUNCTION
+	function fn() {
+		document.write("NORMAL FUNCTION");
+		document.write("<br/>");
+	}
+	fn();
+	
+	//PARAMETERISED FUNCTION
+	function fn1(x,y) {
+		document.write("PARAMETERISED FUNCTION");
+		document.write(x+y);
+		document.write("<br/>");
+	}
+	fn1(10,20);
+	
+	//FUNTION WITH RETURN STATEMENT
+	function fn2(a,b){
+		document.write(" FUNTION WITH RETURN STATEMENT");
+		return a*b;
+	}
+	var res=fn2(20,30);
+	document.write(res);
+	document.write("<br/>");
+	
+	//ANNONYMOUS FUNCTION-- FUNCTION WITHOUT NAME
+	function fn3(f){
+		f();
+	}
+	fn3(function(){
+		var city='kolkata';
+		document.write(city);
+		document.write("<br/>");
+
+	})
+
+	//HIGHER ORDER AND CALLBACK FUNCTION
+	function print(){
+		var dsg='MANAGER';
+		document.write(dsg);
+		document.write("<br/>");
+	}
+	function fn4(f){
+		f();
+	}
+	fn4(print);
+	
+	//FUNCTION EXPRESSION
+	var res=function(){
+		var ph="1234";
+		document.write(ph);
+	}
+	res();
+</script>
+</head>
+<body>
+
+</body>
+</html>

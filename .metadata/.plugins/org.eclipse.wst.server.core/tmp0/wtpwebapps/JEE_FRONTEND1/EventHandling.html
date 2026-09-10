@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>EVENT HANDLING</title>
+<script>
+	function changeH2(){
+		var h2ref=document.getElementById("domh");
+		h2ref.innerText="DOM MANIPULATION BY JAVASCRIPT";
+	}
+	function changeP(){
+		var Pref=document.getElementById("domp");
+		Pref.innerText="WELCOME TO JAVASCRIPT";
+	}
+</script>
+</head>
+<body>
+<div>
+	<h2 id=domh>DOM</h2>
+	<p id=domp>Rohit Gurunath Sharma (born 30 April 1987) is an Indian international cricketer and the captain of the India national team in ODIs. He is also a former captain in Tests and T20Is. He is widely regarded as one of the greatest opening batters of all time, and one of the best batsmen of his generation.[3] He is a right-handed batsman who plays for Mumbai Indians in Indian Premier League and for Mumbai in domestic cricket. After the team's victory at the 2024 Men's T20 World Cup, he announced his retirement from T20Is.</p>
+	<button onclick="changeH2()">CHANGE HEADING</button> &nbsp; &nbsp;
+	<button onclick="changeP()">CHANGE PARAGRAPH</button>
+</div>	
+</body>
+</html>
